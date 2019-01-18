@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='wrapper'>
+        <header>
+            <h1>Tic<span class='title'>Tac</span>Throwdown</h1>
+        </header>
+        <div class='container'>
+            <aside class='left'>
+                <p class='player1'>Player One</p>
+                <p class='winner hidden'>You WIN!</p>
+                <p class='new-game hidden'>- DRAW -</p>
+                <img class= 'hero' src="../images/green.png" alt="Psych">
+                <p class='score'>Score: <span class='scoreNumber'>0</span></p>
+            </aside>
+            
+            <div class='game'>
+                <div class='board'>
+                    <div id='1' class='space'></div>
+                    <div id='2' class='space'></div>
+                    <div id='3' class='space'></div>
+                    <div id='4' class='space'></div>
+                    <div id='5' class='space'></div>
+                    <div id='6' class='space'></div>
+                    <div id='7' class='space'></div>
+                    <div id='8' class='space'></div>
+                    <div id='9' class='space'></div>
+                </div>
+            </div>
+
+            <aside class='right'>
+                <p class='player2'>Player Two</p>
+                <p class='winner2 hidden'>You WIN!</p>
+                <p class='new-game2 hidden'>- DRAW -</p>
+                <img class= 'hero' src="../images/red.png" alt="Blaze">
+                <p class='score'>Score: <span class='scoreNumber2'>0</span></p>
+            </aside>
+        </div>
+        <footer>
+                <p class='reset-board'>Restart Board</p>
+                <p class='reset-score'>Reset Scores</p>
+        </footer>
+    </div>
+
+    <script src='game.js'></script>
+</body>
+</html>
